@@ -11,19 +11,8 @@ public class Main {
 
         proteinPasta.displayRecipe();
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        // Read in recipe from a file
+        Recipe sample = new Recipe("simple.recipe");
+        sample.displayRecipe();
     }
 }
