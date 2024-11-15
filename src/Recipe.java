@@ -73,8 +73,9 @@ public class Recipe {
         System.out.println("Cooking Time: " + cookTime + " minutes");
         System.out.println("Instructions: " + instructions);
         System.out.println("Ingredients:");
-//        for (Ingredient ingredient : ingredients) {
-//            System.out.println("- " + ingredient.getName() + ": " + ingredient.getQuantity() + " " + ingredient.getUnit());
-//        }
+        for (Ingredient ingredient : ingredients) {
+            System.out.println("- " + ingredient.getName() + ": " + ingredient.getQuantity() + " " + ingredient.getUnit());
+        }
     }
+
 }
